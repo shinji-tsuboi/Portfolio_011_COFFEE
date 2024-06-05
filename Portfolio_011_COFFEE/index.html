@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="パララックスの練習">
+  <link rel="icon" href="img/favicon.ico">
+  <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css" />
+  <link rel="stylesheet" href="style.css">
+  <title>COFFEE</title>
+</head>
+
+<body>
+
+  <header id="header">
+    <nav class="nav">
+      <ul class="nav-box">
+        <li class="nav-menu"><a href="#menu">MENU</a></li>
+        <li class="nav-menu"><a href="#about">ABOUT</a></li>
+        <li class="nav-menu"><a href="LOCATION">LOCATION</a></li>
+      </ul>
+    </nav>
+    <h1 class="header-logo">
+      <img class="logo-img" src="img/logo.svg">
+    </h1>
+  </header>
+
+  <main>
+    <!-- メニュー -->
+    <section id="menu" class="container">
+      <div class="parallax img_menu"> <!--汎用(img_変更)-->
+        <h2 class="title">MENU</h2> <!--共通-->
+      </div>
+      <div class="wrapper flex"> <!--共通(wrapper)-->
+        <div class="inner-left">
+          <div class="item-box"> <!--共通-->
+            <h3 class="item">COFFEE</h3> <!--共通-->
+          </div>
+          <dl class="flex">
+            <dt>XXXXXXXXXXXXX</dt>
+            <dd>¥500</dd>
+            <dt>XXXXXXXXXXXXX</dt>
+            <dd>¥500</dd>
+            <dt>XXXXXXXXXXXXX</dt>
+            <dd>¥500</dd>
+            <dt>XXXXXXXXXXXXX</dt>
+            <dd>¥500</dd>
+            <dt>XXXXXXXXXXXXX</dt>
+            <dd>¥500</dd>
+            <dt>XXXXXXXXXXXXX</dt>
+            <dd>¥500</dd>
+            <dt>XXXXXXXXXXXXX</dt>
+            <dd>¥500</dd>
+            <dt>XXXXXXXXXXXXX</dt>
+            <dd>¥500</dd>
+            <dt>XXXXXXXXXXXXX</dt>
+            <dd>¥500</dd>
+            <dt>XXXXXXXXXXXXX</dt>
+            <dd>¥500</dd>
+          </dl>
+        </div>
+        <div class="inner-right">
+          <div class="item-box"> <!--共通-->
+            <h3 class="item">FOOD</h3> <!--共通-->
+          </div>
+          <dl class="flex food-menu">
+            <dt>XXXXXXXXXXXXX</dt>
+            <dd>¥500</dd>
+            <dt>XXXXXXXXXXXXX</dt>
+            <dd>¥500</dd>
+            <dt>XXXXXXXXXXXXX</dt>
+            <dd>¥500</dd>
+          </dl>
+          <div class="item-box"> <!--共通-->
+            <h3 class="item">OTHER</h3> <!--共通-->
+          </div>
+          <dl class="flex">
+            <dt>XXXXXXXXXXXXX</dt>
+            <dd>¥500</dd>
+            <dt>XXXXXXXXXXXXX</dt>
+            <dd>¥500</dd>
+            <dt>XXXXXXXXXXXXX</dt>
+            <dd>¥500</dd>
+          </dl>
+        </div>
+      </div>
+    </section>
+
+    <!-- アバウト -->
+    <section id="about" class="container">
+      <div class="parallax img_about"> <!--汎用(img_変更)-->
+        <h2 class="title">ABOUT</h2> <!--共通-->
+      </div>
+      <div class="item-box"> <!--共通-->
+        <h3 class="item">COFFEE</h3> <!--共通-->
+      </div>
+      <div class="wrapper">
+        <ul class="flex coffee">
+          <li class="coffee-text">
+            テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+          </li>
+          <li>
+            テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+          </li>
+          <li>
+            テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+          </li>
+          <li>
+            テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+          </li>
+        </ul>
+        <div class="button">
+          <a class="border" href="#">Read More</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ロケーション -->
+    <section id="location" class="container">
+      <div class="parallax img_location"> <!--汎用(img_変更)-->
+        <h2 class="title">LOCATION</h2> <!--共通-->
+      </div>
+      <div class="wrapper">
+        <div class="item-box"> <!--共通-->
+          <h3 class="item">OUR STORE</h3> <!--共通-->
+        </div>
+        <div class="map">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6484.628231870059!2d139.70716375!3d35.6446318!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188b40ba660b1b%3A0x8858088b6942f55f!2z44CSMTUwLTAwMjIg5p2x5Lqs6YO95riL6LC35Yy65oG15q-U5a-_5Y2X!5e0!3m2!1sja!2sjp!4v1717376958386!5m2!1sja!2sjp" width="1000" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div class="info">
+          <ul class="adress">
+            <li>X-XX-XX, Ebisuminami, Shibuya-ku, Tokyo 150-0022</li>
+            <li>東京都渋谷区恵比寿南X-XX-XX</li>
+          </ul>
+          <ul class="business-hours">
+            <li>Open 7 days a Week</li>
+            <li>9:00am to 10:00pm</li>
+          </ul>
+          <ul class="tel">
+            <li>Tel: XX-XXXX-XXXX</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer id="footer">
+    <p class="copyright">&copy;COFFEE</p>
+  </footer>
+</body>
+
+</html>
